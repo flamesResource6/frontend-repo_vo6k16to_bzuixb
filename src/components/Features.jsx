@@ -1,11 +1,11 @@
 import React from 'react';
-import { Gamepad2, LineChart, School, Shield } from 'lucide-react';
+import { Gamepad2, LineChart, School, Shield, Cog, Sparkles } from 'lucide-react';
 
 const features = [
   {
-    icon: Gamepad2,
-    title: 'Medieval-themed games',
-    desc: 'Kids join a guild, complete quests, and earn coins while learning saving, budgeting, and opportunity cost.'
+    icon: Sparkles,
+    title: 'Refined, minimal UI',
+    desc: 'Calm palettes, generous spacing, and smooth motion — inspired by modern device design.'
   },
   {
     icon: LineChart,
@@ -29,8 +29,8 @@ export default function Features() {
     <section id="features" className="bg-gradient-to-b from-white to-gray-50">
       <div className="mx-auto max-w-7xl px-6 py-20">
         <div className="mx-auto mb-10 max-w-2xl text-center">
-          <h2 className="text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">Designed like Apple. Built for learning.</h2>
-          <p className="mt-4 text-gray-600">A clean, confident interface for parents with a playful, medieval in-app world for kids.</p>
+          <h2 className="text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">Modern design that feels familiar</h2>
+          <p className="mt-4 text-gray-600">Polished like the devices you love. Playful medieval world inside the app for kids.</p>
         </div>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {features.map(({ icon: Icon, title, desc }) => (
